@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // // 1 point
+
+      //   var a = 10;
+      //   console.log(a);
+      //   var a1 = ++a;
+      //   console.log(a1);
+      //   var a2 = a1++;
+      //   var a2 = a1++;
+      //   console.log(a2);
+      //   var a3 = --a2;
+      //   console.log(a3);
+      //   var a4 = a3--;
+      //   a4 = a3--;
+      //   console.log(a4);
+      //   document.write;
+
+      var a = 10;
+      var a = ++a;
+      var a = a++;
+      var a = a++;
+      var a = --a;
+      var a = a--;
+      var a = a--;
+      console.log(a);
+      document.write("The result of a is " + a);
+      // 2point
+      var a = 2,
+        b = 1;
+      var result = --a - --b + ++b + b--;
+      console.log(result);
+      //    3 point
+      var userName = prompt(" enter your name");
+      alert("hello, " + userName + " ! welcome to the server");
+      //    6point
+      var subjects1 = prompt("subjects 1");
+      var subject1Marks = +prompt(
+        "how many marks do you obtained in subject 1 ?"
+      );
+      console.log(subjects1);
+      console.log(subject1Marks);
+      var subjects2 = prompt("subjects 2");
+      var subject2Marks = +prompt(
+        "how many marks do you obtained in subject 2 ?"
+      );
+      console.log(subjects2);
+      console.log(subject2Marks);
+      var subjects3 = prompt("subjects 3");
+      var subject3Marks = +prompt(
+        "how many marks do you obtained in subject 3 ?"
+      );
+      console.log(subjects3);
+      console.log(subject3Marks);
+      //   var subject1Marks = prompt("how many marks you obtained in subject 1 ?")
+      //   var subject2Marks = prompt("how many marks you obtained in subject 2 ?")
+      //   var subject3Marks = prompt("how many marks you obtained in subject 3 ?")
+      var totalMarks = subject1Marks + subject2Marks + subject3Marks;
+      console.log("Each subject have 100 marks ");
+      console.log(
+        "Total marks that you are obtained in all subjects " +
+          totalMarks +
+          "out of 300"
+      );
+      var percentage = (totalMarks * 100) / 300;
+      console.log(percentage);
+      document.write(
+        "<h2> Subject Total marks Obtained marks Percentage</h2> <br>"
+      );
+      document.write(
+        subjects1 +
+          "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 100 \xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0\xa0 \xa0 \xa0 \xa0 \xa0" +
+          subject1Marks +
+          "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0 \xa0 \xa0" +
+          subject1Marks +
+          "% <br>"
+      );
+      document.write(
+        subjects2 +
+          "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 100 \xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0\xa0 \xa0 \xa0 \xa0 \xa0" +
+          subject2Marks +
+          "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0 \xa0 \xa0" +
+          subject2Marks +
+          "% <br>"
+      );
+      document.write(
+        subjects3 +
+          "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 100 \xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0\xa0 \xa0 \xa0 \xa0 \xa0" +
+          subject3Marks +
+          "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0 \xa0 \xa0" +
+          subject3Marks +
+          "% <br>"
+      );
+      document.write(
+        "300 \xa0\xa0\xa0\xa0\xa0 \xa0\xa0" +
+          totalMarks +
+          "\xa0\xa0\xa0\xa0\xa0 \xa0\xa0\xa0\xa0\xa0\xa0\xa0 \xa0\xa0" +
+          percentage +
+          "%"
+      );
+    </script>
+  </body>
+</html>
