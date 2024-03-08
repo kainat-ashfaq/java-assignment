@@ -244,7 +244,7 @@ if (budget === "high") {
       alert("We have this model in medium screen size \n Amazon ");
     } else if (size == "small") {
       // prompt("we have this model in small screen size", "nokia");
-       alert("We have this model in small screen size \n Nokia");
+      alert("We have this model in small screen size \n Nokia");
     } else if (size == "large") {
       // prompt("we have this model in large screen size", "realme");
       alert("We have this model in large screen size \n Realme");
